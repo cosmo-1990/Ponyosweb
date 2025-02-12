@@ -1,0 +1,184 @@
+/* Importar fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales para la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3e5f5; /* Fondo rosado claro */
+    color: #4a148c; /* Texto púrpura oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #8e24aa; /* Púrpura medio */
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #6a1b9a; /* Púrpura oscuro */
+    color: #df7dda; /* Texto blanco */
+    font-size: 2.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #fff; /* Texto blanco */
+}
+
+header nav a:hover {
+    color: #f3e5f5; /* Texto rosado claro */
+    text-decoration: underline;
+}
+
+/* Estilo para la sección "Sobre mí" */
+#about {
+    background-color: #f8bbd0; /* Rosado claro */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about img {
+    max-width: 200px; /* Ajustar el tamaño según sea necesario */
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+/* Estilo para la sección "Cosas que me gustan" */
+#things-i-like {
+    background-color: #e1bee7; /* Púrpura claro */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#things-i-like ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#things-i-like li {
+    margin: 1rem 0;
+}
+
+/* Estilo para la sección "Mis fotos" */
+#my-pics {
+    background-color: #f8bbd0; /* Rosado claro */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#my-pics ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-pics li {
+    margin: 1rem;
+}
+
+#my-pics li:last-child {
+    margin-left: auto; /* Desplazar la última imagen a la derecha */
+}
+
+#my-pics a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4a148c; /* Texto púrpura oscuro */
+}
+
+#my-pics a:hover {
+    text-decoration: underline;
+    color: #6a1b9a; /* Texto púrpura oscuro */
+}
+
+/* Estilo para las imágenes dentro de la sección "Mis fotos" */
+#my-pics img {
+    width: 100%;
+    max-width: 150px; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    margin: 10px;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las imágenes dentro de los enlaces en la sección "Mis fotos" */
+#my-pics a img {
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantén la relación de aspecto */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las imágenes dentro de las galerías */
+.gallery img {
+    width: 100%;
+    max-width: 150px; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(165, 127, 127, 0.1);
+}
+
+/* Estilo adicional para las galerías */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #be8dcc; /* Púrpura medio */
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6a1b9a; /* Púrpura oscuro */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8e24aa; /* Púrpura medio */
+    border-top: 2px solid #6a1b9a; /* Púrpura oscuro */
+    color: #fff; /* Texto blanco */
+    font-size: 1rem;
+}

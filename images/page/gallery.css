@@ -1,0 +1,60 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* Fondo rosado claro */
+    color: #4a148c; /* Texto púrpura oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #8e24aa; /* Púrpura medio */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #6a1b9a; /* Púrpura oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #fff; /* Texto blanco */
+}
+
+header nav a:hover {
+    color: #f3e5f5; /* Texto rosado claro */
+    text-decoration: underline;
+}
+
+/* Estilo para las imágenes dentro de las galerías */
+.gallery img {
+    width: 100%;
+    max-width: 300px; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;     /* Mantener la relación de aspecto original */
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Asegura que las imágenes mantengan su proporción */
+}
+
+/* Estilo adicional para las galerías */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8e24aa; /* Púrpura medio */
+    border-top: 2px solid #6a1b9a; /* Púrpura oscuro */
+    color: #fff; /* Texto blanco */
+}
